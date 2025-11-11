@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Grig Bhojnam | Homestyle Meals</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
     <style>
     :root {
@@ -98,12 +98,35 @@
     margin: 0.6rem 0;
   }
 
+  .header-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0b4f78;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+  }
+
+  .header-title span {
+    color: #f78c1f;
+  }
+
+  @media (max-width: 600px) {
+    .header-title {
+      font-size: 1.6rem;
+    }
+  }
+
   </style>
 </head>
 <body>
   <header>
     <div>
-      <h1>Grig Bhojnam</h1>
+      <h1 class="header-title">
+            Grih <span>Bhojnam</span>
+      </h1>
       <div class="tagline">Authentic Homestyle Meals • Party Orders Only</div>
     </div>
     <nav>
